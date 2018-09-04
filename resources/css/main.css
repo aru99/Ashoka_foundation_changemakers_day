@@ -46,6 +46,12 @@ h3{
     font-weight: 300;
     text-transform: uppercase;
 }
+
+/* font weight of the subheading in section area */
+.sec h2{
+  font-weight: 500;
+}
+
 h1{
     margin: 0;
     margin-bottom: 20px;
@@ -345,11 +351,18 @@ background-color: white;
 .sec2 p{
   transform: translateY(0%);
   font-size: 110%;
-  /* background-color: rgba(255, 228, 196, 0.61); */
-  /* margin-top: 80px; */
-  margin-bottom: 7%;
+  margin-bottom: 3%;
   z-index: 9800;
 }
+
+/* links in section2 */
+.sec2 a{
+  text-decoration: none;
+  color: #286665;
+  font-weight: 400;
+}
+
+
 /* ======================================== */
 /*second_section,about_ashoka_foundation_end*/
 /* ======================================== */
@@ -469,7 +482,7 @@ margin-top: 40px;
     outline:none;
   }
 
-  input[type="button"] {
+  input[type="submit"] {
     border: none;
     border-radius: 200px;
     background-color:#0f304f;
@@ -479,13 +492,13 @@ margin-top: 40px;
     margin-bottom: 40px;
     transition: all 0.2s;
   }
-input[type='button']:hover{
+input[type='submit']:hover{
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
   background-color: #0f304f8f;
 }
 
-input[type='button']:active{
+input[type='submit']:active{
   transform: translateY(-1px);
   box-shadow:0 5px 10px rgba(255, 255, 255, 0.15);
 }
